@@ -6,6 +6,9 @@ There are two widgets that need to be embedded into a website to make the bookin
 1. The availability widget which determines the availability of the product and any pickups or extras. This widget creates the information for the cart.
 2. The cart widget which displays the customer's products and continues with the payment process.
 
+## Demo
+[Checkout the demo](https://narnoocom.github.io/ota-widget/product.html "Demo Product Page")
+
 ## The Availability Widget
 This widget is displayed on the listings page or anywhere that you require a product to be booked.
 
