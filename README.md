@@ -13,7 +13,7 @@ There are two widgets that need to be embedded into a website to make the bookin
 This widget is displayed on the listings page or anywhere that you require a product to be booked.
 
 ### Source Files
-The CSS and JS files need to be added to the pages:
+The CSS and JS files need to be added to the page header and end of content for JS:
 CSS::https://d2amq67wh0wnea.cloudfront.net/availability/tours/css/app.css
 JS::https://d2amq67wh0wnea.cloudfront.net/availability/tours/js/app.js
 
@@ -45,7 +45,7 @@ This widget is used to manage the product cart and continue with the booking pro
 > This widget uses internal routing, therefore it should be implemented on a server. It can be on your localhost, however you will need to be running a server such as MAMP. It defaults to a 'checkout' page URI. If there are conflicts with this we can look at altering it.
 
 ### Source Files
-The CSS and JS files need to be added to the pages:
+The CSS and JS files need to be added to the page header and end of content for JS:
 CSS::https://d2amq67wh0wnea.cloudfront.net/cart/ota/css/app.css
 JS::https://d2amq67wh0wnea.cloudfront.net/cart/ota/js/app.js
 
