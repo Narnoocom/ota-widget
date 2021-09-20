@@ -1,5 +1,5 @@
 # ota-widget
-Our OTA inspired embeddable widget
+Our OTA inspired embeddable widget - V1.0 - Feedback encouraged!
 
 # Installation Process
 There are two widgets that need to be embedded into a website to make the booking flow work.
@@ -41,6 +41,8 @@ booking_code = ""
 
 ## The Cart Widget
 This widget is used to manage the product cart and continue with the booking process. It requires it's own page on the website.
+
+> This widget uses internal routing, therefore it should be implemented on a server. It can be on your localhost, however you will need to be running a server such as MAMP. It defaults to a 'checkout' page URI. If there are conflicts with this we can look at altering it.
 
 ### Source Files
 The CSS and JS files need to be added to the pages:
