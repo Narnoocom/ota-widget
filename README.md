@@ -28,7 +28,7 @@ booking_code = "" //optional
 ></narnoo-availability-widget>
 
 | Key           | Value         |Description           | Required  |
-| ------------- |:-------------:| --------------------:| ---------:|
+| ------------- |:-------------:| :--------------------| :---------:|
 | access_key    | (string)      | API Access key       | YES |
 | operator_id   | (string)      | Narnoo Operator Id   |   YES |
 | booking_id    | (string)      | Narnoo Product Booking Id | YES |
