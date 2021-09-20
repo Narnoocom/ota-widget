@@ -19,13 +19,15 @@ JS::https://d2amq67wh0wnea.cloudfront.net/availability/tours/js/app.js
 
 To render the widget we use a component tag.
 
+```html
 <narnoo-availability-widget
 access_key = ""
 operator_id = ""
 booking_id = ""
 checkout_url = ""
-booking_code = "" //optional
+booking_code = ""
 ></narnoo-availability-widget>
+```
 
 | Key           | Value         |Description           | Required  |
 | ------------- |:-------------:| :--------------------| :---------:|
@@ -45,4 +47,6 @@ JS::https://d2amq67wh0wnea.cloudfront.net/cart/ota/js/app.js
 
 To render the widget we use a component tag.
 
+```html
 <narnoo-cart-widget></narnoo-cart-widget>
+```
