@@ -22,10 +22,18 @@ To render the widget we use a component tag.
 <narnoo-availability-widget
 access_key = ""
 operator_id = ""
-Booking_id = ""
-checkout_url = "" //Required - used to send customer to checkout page after item added to cart. example: 'cart.html'
-booking_code = "" //optional - used for products with multiple booking options per product. ( common with Respax )
+booking_id = ""
+checkout_url = ""
+booking_code = "" //optional
 ></narnoo-availability-widget>
+
+| Key        | Value           |Description           | Required  |
+| ------------- |:-------------:| -----:|
+| access_key      | (string) | API Access key | YES |
+| operator_id      | (string) | Narnoo Operator Id      |   YES |
+| booking_id | (string) | Narnoo Product Booking Id      |    YES |
+| checkout_url | (string) | URI to a cart page on the website      |    YES |
+| booking_code | (string) | Booking code for a single product when there are multiple products available. Common with Respax integrations      |    NO |
 
 ## The Cart Widget
 This widget is used to manage the product cart and continue with the booking process. It requires it's own page on the website.
