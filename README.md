@@ -1,7 +1,7 @@
 # ota-widget
 Our OTA inspired embeddable widget - V1.0 - Feedback encouraged!
 
-> :warning: **Country API Service Issue**: We've noticed some intermittent faults with a 3rd party serivce we used to manage country codes. We are removing this and will manage this ourselves. 
+> :clap: **Country API Service Issue Fixed**: We have removed the 3rd party country API selector and are now managing the countries list ourselves. 
 
 # Installation Process
 There are two widgets that need to be embedded into a website to make the booking flow work.
