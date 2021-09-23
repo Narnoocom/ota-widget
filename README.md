@@ -1,6 +1,8 @@
 # ota-widget
 Our OTA inspired embeddable widget - V1.0 - Feedback encouraged!
 
+> :warning: **Country API Service Issue**: We've noticed some intermittent faults with a 3rd party serivce we used to manage country codes. We are removing this and will manage this ourselves. 
+
 # Installation Process
 There are two widgets that need to be embedded into a website to make the booking flow work.
 1. The availability widget which determines the availability of the product and any pickups or extras. This widget creates the information for the cart.
