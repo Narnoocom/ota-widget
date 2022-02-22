@@ -29,6 +29,9 @@ operator_id = ""
 booking_id = ""
 checkout_url = ""
 booking_code = ""
+display_extras = ""
+pick_up = ""
+week_days = ""
 ></narnoo-availability-widget>
 <script src="https://d2amq67wh0wnea.cloudfront.net/availability/tours/js/app.js"></script>
 ```
@@ -40,6 +43,9 @@ booking_code = ""
 | booking_id    | (string)      | Narnoo Product Booking Id | YES |
 | checkout_url  | (string)      | URI to a cart page on the website | YES |
 | booking_code  | (string)      | Booking code for a single product when there are multiple products available. Common with Respax integrations.  |    NO |
+| display_extras  | (true | false)       | Display product extras ( if any ).  |    NO |
+| pick_up  | (string)      | Assign a default pickup location - user will not be able to select one  |    NO |
+| week_days  | (string - comma separated)      | Block regular days off the calendar so they can't be selected |    NO |
 
 ## The Cart Widget
 This widget is used to manage the product cart and continue with the booking process. It requires it's own page on the website.
@@ -58,3 +64,8 @@ To render the widget we use a component tag.
 <narnoo-cart-widget></narnoo-cart-widget>
 <script src="https://d2amq67wh0wnea.cloudfront.net/cart/ota/js/app.js"></script>
 ```
+
+| Key           | Value         |Description           | Required  |
+| ------------- |:-------------:| :--------------------| :---------:|
+| confirmation_code    | ( true or false = default ) | Display the suppliers booking code on confirmation       | NO |
+| guest_list   | ( true or false = default ) | Show a guest form on checkout where the customer can add each guests details   |   NO |
