@@ -1,7 +1,9 @@
 # ota-widget
-Our OTA inspired embeddable widget - V1.0 - Feedback encouraged!
+Our OTA inspired embeddable widget - Feedback encouraged!
 
-> :clap: **Country API Service Issue Fixed**: We have removed the 3rd party country API selector and are now managing the countries list ourselves. 
+## Versions
+Widget - V1.1.4
+Cart - V1.1.4
 
 # Installation Process
 There are two widgets that need to be embedded into a website to make the booking flow work.
@@ -43,7 +45,7 @@ week_days = ""
 | booking_id    | (string)      | Narnoo Product Booking Id | YES |
 | checkout_url  | (string)      | URI to a cart page on the website | YES |
 | booking_code  | (string)      | Booking code for a single product when there are multiple products available. Common with Respax integrations.  |    NO |
-| display_extras  | (true | false)       | Display product extras ( if any ).  |    NO |
+| display_extras  | ( true or false = default )       | Display product extras ( if any ).  |    NO |
 | pick_up  | (string)      | Assign a default pickup location - user will not be able to select one  |    NO |
 | week_days  | (string - comma separated)      | Block regular days off the calendar so they can't be selected |    NO |
 
@@ -69,3 +71,6 @@ To render the widget we use a component tag.
 | ------------- |:-------------:| :--------------------| :---------:|
 | confirmation_code    | ( true or false = default ) | Display the suppliers booking code on confirmation       | NO |
 | guest_list   | ( true or false = default ) | Show a guest form on checkout where the customer can add each guests details   |   NO |
+
+## Updates
+> :clap: **Country API Service Issue Fixed**: We have removed the 3rd party country API selector and are now managing the countries list ourselves. 
