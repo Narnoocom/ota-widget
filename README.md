@@ -48,6 +48,7 @@ week_days = ""
 | display_extras  | ( true or false = default )       | Display product extras ( if any ).  |    NO |
 | pick_up  | (string)      | Assign a default pickup location - user will not be able to select one  |    NO |
 | week_days  | (string - comma separated)      | Block regular days off the calendar so they can't be selected |    NO |
+| display_cart_button  | (boolean)   | Shows a link to cart when there are products present |  NO |
 
 ## The Cart Widget
 This widget is used to manage the product cart and continue with the booking process. It requires it's own page on the website.
