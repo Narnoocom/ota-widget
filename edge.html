@@ -57,70 +57,101 @@
                     <div class="row">
                         <div class="col-lg-12 mb-4">
                             <style>
-                                .narnoo-secondary-bg{
-                                    background-color: #4a6632;
+                                .narnoo-primary-bg {
+                                    background-color: #f5f5f5;
                                 }
-                    
-                                .narnoo-primary-bg{
-                                    background-color: #67b346;
+
+                                .narnoo-secondary-bg {
+                                    background-color: #89cf31;
                                 }
-                    
-                                .narnoo-primary-text{
+
+                                .narnoo-primary-text {
                                     color: #67b346;
                                 }
-                    
-                                .narnoo-primary-border{
-                                    border-color: #4a6632;
-                                }
-                    
-                                .narnoo-secondary-border{
-                                    border-color: #67b346;
-                                }
-                    
-                                .narnoo-secondary-border:hover{
-                                    border-color: #4a6632;
-                                }
-                    
-                                .daintree:hover{
-                                    background-color: #67b346;
-                                }
-                    
-                                .narnoo-primary-button{
-                                    transition: 0.8s;
-                                    background-color: #4a6632;
-                                }
-                    
-                                .narnoo-primary-button:hover{
-                                    background-color: #ffffff;
-                                    color: #4a6632;
-                                }
-                    
-                                .narnoo-secondary-button{
-                                    transition: 0.8s;
-                                    border-color: #4a6632;
-                                    color: #67b346;
-                                }
-                    
-                                .narnoo-secondary-button:hover{
-                                    background-color: #4a6632;
+
+                                .narnoo-secondary-text {
                                     color: #ffffff;
                                 }
-                    
-                                .narnoo-dark-button{
-                                    transition: 0.8s;
-                                    background-color: #4a6632;
+
+                                .narnoo-primary-border {
+                                    border-color: #f5f5f5;
                                 }
-                    
-                                .narnoo-dark-button:hover{
-                                    background-color: #ffffff;
-                                    color: #4a6632;
+
+                                .narnoo-secondary-border {
+                                    border-color: #89cf31!important;
+                                }
+
+                                .narnoo-primary-button {
+                                    transition: 0.8s;
+                                    background-color: #f5f5f5;
+                                    border-color: #89cf31;
+                                    color: #67b346;
+                                }
+
+                                .narnoo-primary-button:hover {
+                                    background-color: #89cf31;
+                                    border-color: #f5f5f5;
+                                    color: #ffffff;
+                                }
+
+                                .narnoo-secondary-button {
+                                    transition: 0.8s;
+                                    background-color: #89cf31;
+                                    border-color: #f5f5f5;
+                                    color: #ffffff;
+                                }
+
+                                .narnoo-secondary-button:hover {
+                                    background-color: #f5f5f5;
+                                    border-color: #89cf31;
+                                    color: #67b346;
+                                }
+
+                                .narnoo-no-border-radius {
+                                    border-radius: 0px!important;
+                                    --tw-ring-color: none;
+                                }
+                                .narnoo-no-border-radius:focus{
+                                    --tw-ring-color: none!important;
+                                }
+
+                                .mx-table-date .today {
+                                    color: #89cf31;
+                                }
+
+                                .mx-calendar-content .cell.active {
+                                    background-color: #89cf31;
+                                }
+
+                                .mx-calendar-content .cell.disabled {
+                                    background-color: #f5f5f5;
+                                }
+
+                                [type='text'], [type='email'], select {
+                                    height: 40px;
+                                    font-size: 1rem;
+                                    line-height: 1.5rem;
+                                    padding: 10px; 
+                                    border: 1px solid #ccc; 
+                                    border-radius: 0.25rem; 
+                                    transition: border-color 0.3s;
+                                    color: #67b346;
+                                }
+
+                                [type='text']:focus,  [type='email']:focus, select:focus, textarea:focus {
+                                    border-color: #89cf31;
+                                    outline: none;
+                                    --tw-ring-color: #89cf31;
+                                }
+
+                                [type='text']::placeholder,  [type='email']::placeholder, select::placeholder, textarea::placeholder {
+                                    color: #67b346;
                                 }
                             </style>
                             <narnoo-availability-widget
                             access_key = "15796730941933"
                             operator_id = "1502"
                             booking_id = "1836"
-                            daintree_theme="true"
                             checkout_url = "https://narnoocom.github.io/ota-widget/edge-cart.html" 
                             custom_theme = "true"
                             ></narnoo-availability-widget>
